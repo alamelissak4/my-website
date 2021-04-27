@@ -105,6 +105,11 @@ body {
     font-size: 15px;
     text-align: center;
     }
+      .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
     </style>
   <p>My name is Melissa Knighton and this is my first time making a page like this, I hope to get better at coding and making websites like this in the future!</p>
     </div>
@@ -124,19 +129,20 @@ body {
         <p><img src="sis.jpg" alt="sis" style="width:50%"></p>
   </div>
 </div>
-    <div class="row">
-  <div class="column">
-    <p>This is my best friend! I have known her for so long now and I am so grateful to have a friend like her!</p>
-  </div>
-  <div class="column">
-    <p>This is our little puppy! She may look like a puppy still but she is actually about 9 years old!</p>
-  </div>
-  <div class="column">
-    <p>This is my Mom, we have been through so much together and I am grateful for her in every way!</p>
-  </div>
-      <div class="column">
-    <p>This is my cousin! We basically grew up together and I love her so much!</p>
-  </div>
+      <div class="grid-container">
+    <div class="grid-child">
+        <p>This is my best friend! I have known her for so long now and I am so grateful to have a friend like her!</p>
+    </div>
+
+    <div class="grid-child">
+        <p>This is our little puppy! She may look like a puppy still but she is actually about 9 years old!</p>
+    </div>
+            <div class="grid-child">
+        <p>This is my Mom, we have been through so much together and I am grateful for her in every way!</p>
+    </div>
+            <div class="grid-child">
+        <p>This is my cousin! We basically grew up together and I love her so much!</p>
+    </div>
 </div>
   </div>
 
